@@ -1,23 +1,39 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { MdComputer } from "react-icons/md";
-import {GiPokerHand} from "react-icons/gi";
-import {GiFootprint} from "react-icons/gi";
-import {GrRobot} from "react-icons/gr";
+// import { MdComputer } from "react-icons/md";
+// import {GiPokerHand} from "react-icons/gi";
+// import {GiFootprint} from "react-icons/gi";
+// import {GrRobot} from "react-icons/gr";
 import Type1 from "./Type";
 
 function AboutCard() {
   return (
     <Card className="about-card">
       <Card.Body>
-          <p style={{ textAlign: "justify" }}>
-
-            I'm a first-year master's student majoring in Computer Engineering at UCLA. I received my BEng in Automation & Robotics at Zhejiang University, China.<br/>
-            I have rich experience in machine learning, software development, planning and control of robots, .<br/>
-            Apart from my technical abilities, I minored in Innovation and Entrepreneurship and have confidence in my leadership and communication skills.<br/>
-            And here are some things I would like to do in my spare time:
-          </p>
-          <ul>
+          <ul style={{ textAlign: "justify" }}>
+            <li>
+            👦🏻 Second year MS student in Computer Engineering
+            </li>
+            <li>
+            ✨ key skills: Backend Software Engineering & Machine Learning
+            </li>
+            <li>
+            🛠️ Proficient in Python, C++, PyTorch, FastAPI, Flask, Cloud Platform, MongoDB
+            </li>
+            <li>
+            🌐 Architected and deployed intricate API services on cloud platforms
+            </li>
+            <li>
+            🧠 Led the training, testing, and inference pipelining of machine learning modules
+            </li>
+            <li>
+            ⚙️ Integrated AI models into autonomous workflow software and autonomous driving systems
+            </li>
+            <li>
+            🎖️ Honored as an 'Outstanding Graduate' for my impactful undergraduate thesis
+            </li>
+          </ul>
+          {/* <ul>
             <li className="about-activity">
               <GrRobot /> Learning newest tech -- Computer vision model, Large Language Model, etc.
             </li>
@@ -30,7 +46,7 @@ function AboutCard() {
             <li className="about-activity">
               <GiFootprint /> Exploring the city -- who doesnt like LA
             </li>
-          </ul>
+          </ul> */}
 
           <p style={{ textAlign: "center"}}>
             <br/>
